@@ -47,5 +47,5 @@ logs/
 *.crt
 secrets/
 
-# Odysseus (separate project — clone independently)
-odysseus-setup/
+# Odysseus (separate project — can be cloned independently)
+# odysseus-setup/

@@ -1,0 +1,10 @@
+services:
+  odysseus:
+    build:
+      context: .
+      dockerfile: Dockerfile.lite
+  searxng:
+    ports: !override
+      - "127.0.0.1:8082:8080"
+    environment:
+      - SEARXNG_BASE_URL=http://localhost:8082/
